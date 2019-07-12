@@ -1,0 +1,67 @@
+{
+  "montadoras": [{
+    "id": 1,
+    "nome": "Honda",
+    "carros": [{
+      "id": 1,
+      "nome": "Fit",
+      "pecas": [{
+        "id": 1,
+        "nome": "Freios"
+      }]
+    },
+      {
+        "id": 2,
+        "nome": "Civic",
+        "pecas": [{
+          "id": 1,
+          "nome": "Freios"
+        },
+          {
+            "id": 2,
+            "nome": "Rodas"
+          }
+        ]
+      }
+    ]
+  },
+    {
+      "id": 3,
+      "nome": "Ford",
+      "carros": [{
+        "id": 1,
+        "nome": "Fiesta",
+        "pecas": [{
+          "id": 1,
+          "nome": "Freios"
+        }]
+      },
+        {
+          "id": 2,
+          "nome": null,
+          "pecas": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Ferro Velho do Tio Zé",
+      "carros": [{
+        "id": 1,
+        "nome": "Rolimã",
+        "pecas": null
+      },
+        {
+          "id": 2,
+          "nome": null,
+          "pecas": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Desmanche de Carros S.A.",
+      "carros": null
+    }
+  ]
+}
