@@ -55,12 +55,18 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+
+
+
         montadoraResponse.montadoras?.let {listaMontadora ->
-            for (item in (listaMontadora.size - 1) downTo 1) {
-                if ("3".equals(listaMontadora[item].id)) {
-                    montadoraAux.add(listaMontadora[item])
-                    listaMontadora.removeAt(item)
+            var i = 0
+            while (i < listaMontadora.size) {
+                if ("3".equals(listaMontadora[i].id)) {
+                    montadoraAux.add(listaMontadora[i])
+                    listaMontadora.removeAt(i)
+                    i--
                 }
+                i++
             }
 
             for (i in 0 until montadoraAux.size) {
